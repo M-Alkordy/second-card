@@ -1,0 +1,118 @@
+@font-face {
+    font-family: STC;
+    src: url(./STC.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #E7EAEF;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    transform: translateX(35%);
+    width: 57vw;
+    height: 170vh;
+    background-image: url('../img/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav{
+    max-width: 1233px;
+    width: 90.2635vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 4.8828vh auto;
+    margin-bottom: 0;
+}
+
+nav .title{
+    font-family: 'STC';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 137px;
+    color: #16397A;
+}
+
+.cards{
+    margin-top: 5.4199vh;
+}
+
+.cards .card{
+    max-width: 1233px;
+    background-color: #ffff;
+    border-radius: 16px;
+    display: flex;
+    margin: 64px auto;
+    margin-bottom: 0;
+}
+
+.cards .card .number{
+    font-family: 'STC';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #16397A;
+    color: #ffff;
+    font-size: 47px;
+    margin:auto 21px;
+}
+
+.cards .card .text{
+    font-family: 'STC';
+    font-size: 29px;
+    line-height: 54px;
+    width: 80.2489%;
+    margin-left: 9.7943%;
+}
+
+.cards .card .text .top{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    gap: 3.125%;
+}
+
+.cards .card .text .top .title{
+    color: #5C5C5C;
+}
+
+.cards .card .text .bottom{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    margin-left: 10.9307%;
+    gap: 3.125%;
+}
+
+.cards .card .text .bottom .title{
+    color: #5C5C5C;
+}
+
+footer{
+    max-width: 1233px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'STC';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 64px;
+}
